@@ -11,7 +11,7 @@ public class CubertScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position += Vector3.up / 100;
-        transform.localScale *= 1.001f;
+		transform.position += Vector3.left / 100;
+        transform.localScale *= 0.998f;
 	}
 }
