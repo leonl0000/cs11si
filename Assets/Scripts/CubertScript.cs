@@ -13,5 +13,6 @@ public class CubertScript : MonoBehaviour {
 	void Update () {
 		transform.position += Vector3.left / 100;
         transform.localScale *= 0.998f;
-	}
+        transform.RotateAround(transform.position, Vector3.up, 200.0f * Time.deltaTime);
+    }
 }
